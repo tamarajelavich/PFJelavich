@@ -46,28 +46,64 @@ div{
 }
 
 .container{
-  margin-bottom: 100px;
+  margin-bottom: 0px;
+  #row{
+    margin: 0px;
+  }
 }
 
-.form {
-  width: 450;
-  
-  background-color: $coloruno;
-  box-sizing: border-box;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-left: 400px;
+  .ratio{
+  margin-top: 50px;
   }
 
-#formSec{
-  padding: 10px;  
+.col{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+
+
+
+/* Formulario de contacto */
+
+form{
+  padding: 20px;  
   margin-top: 5%;
   margin-bottom: 5%;
   background-color: $coloruno;
   width: 350px;
-  margin-right: 10% ;
+max-width: 400px;  
+  margin-left: 400px ;
   border-radius: 5px;  
+
+.form_container{
+  display: grid;
+  gap: 16px;
+  grid-auto-columns: 100%;
 }
+
+.form_title{
+text-align: center;
+color: $letrasdos;
+}
+
+.form_input{
+  padding: 9px 16px;
+  outline: none;
+  border: none;
+  border: 1px solid $colordos;
+}
+
+}
+
+.form_cta{
+  background-color: $colordos;
+  color: $letrasdos;
+  border: none;
+
+}
+
+
 
 footer {
   margin-bottom: 35px;
@@ -75,6 +111,8 @@ footer {
   bottom: 0;
   background-color: $colordos;
   text-align: center;
+  margin: 0px;
+  
 }
 
 footer {

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <meta name="description" content="paguina web de servicios de manicura y esmaltado de uñas">
 
     <title>vickynails</title>
 <link rel="stylesheet" href="./styles.css">
@@ -63,21 +63,20 @@
   
         <!-- Formulario -->
   
-         <form id="formSec" action="./contacto.html" method="GET" enctype="application/x-www-form-urlencoded">
-           <input type="text" name="nombre" placeholder="nombre" >
-            <br>
-            <input type="text" name="apellido" placeholder="apellido" >
-            <br>
-            <input type="email" name="email" placeholder="email" >
-            <br>
-            <textarea name="mensaje" cols="30" rows="10"></textarea>
-            <input type="button" value="enviar" >
-       </form>
-     
-    
+<form class="form">
+  <div class="form_container">
+    <h2 class="form_container">Contactame!</h2>
+    <input type="text" class="form_input" placeholder="Nombre:">
+    <input type="email" class="form_input" placeholder="Email:"> 
+    <textarea class="form_input--message" placeholder="Mensaje:"></textarea>
+
+    <input type="submit" value="Enviar" class="form_cta">
+    </div>
+    </form>
       <!-- Section footer -->
          
   <footer>
+    <div class="container">
     <div class="row">
      <div class="col-md-6">
        <h3>Mapa de sitio</h3>
@@ -97,7 +96,8 @@
          <li>E-mail: vickynails@gmail.com</li>
        </ul>
      </div>        
-   </div>        
+   </div>     
+   </div>   
    </footer>       
 
 
